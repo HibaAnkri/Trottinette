@@ -1,10 +1,7 @@
 package org.example.Service;
 
 import org.example.Entity.Reservation;
-import org.example.Entity.Trottinette;
-import org.example.Repository.CategoryRepository;
 import org.example.Repository.ReservationRepository;
-import org.example.Repository.TrottinetteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
