@@ -11,7 +11,7 @@ import java.util.List;
 
 @Repository
 public interface ReservationRepository extends JpaRepository<Reservation,Long> {
-     List<Reservation> findByTrottinetteReser(Trottinette trottinette, Date dateDebut, Date dateFin) ;
+
 }
 
 
